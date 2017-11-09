@@ -1,0 +1,7 @@
+<h1> Movie Searcher </h1>
+
+<%= form_tag "/", method: "post" %>
+<%= text_field_tag(:movie) %>
+<%= text_field_tag(:release) %>
+<%= text_field_tag(:real) %>
+<%= submit_tag(value = "Chercher") %>
